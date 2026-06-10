@@ -1,0 +1,137 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    background-image: url(./img/background.png);
+}
+
+.navbar{
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5vh;
+    color: white;
+    padding: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.navbar a:hover{
+    background-color: #23A6F0;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav button{
+    padding: 20px 5vh;
+    font-size: 14px;
+    background: #23A6F0;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+nav button:hover{
+
+    background: cornflowerblue;
+}
+.k1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5vh;
+}
+.left{
+    margin-top: 13%;
+}
+.left h1{
+    font-size: 60px;
+    color: white;
+}
+.left p{
+    font-size: 25px;
+    color: white;
+    margin-top: 13%;
+}
+.left button{
+    margin-top: 13%;
+}
+.btn01{
+    padding: 13px 35px;
+    border-radius: 30px;
+    color: white;
+    background: #23A6F0;
+    border-style: none;
+    cursor: pointer;
+}
+.btn01:hover{
+    background: cornflowerblue;
+}
+.btn02{
+     padding: 12px 35px;
+    border-radius: 30px;
+    color: white;
+    background: #70707014;
+    border-style: none;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn02:hover{
+    background: cornflowerblue;
+}
+
+.right{
+
+    margin-top: 5%;
+}
+.card{
+    background: white;
+    padding: 40px 65px;
+    border-style: none;
+    border-radius: 10px;
+    width: 50vh;
+    height: 75vh;
+    line-height: 2.5;
+}
+.card h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.card input {
+    font-size: 16px;
+    text-align: start;
+    padding: 15px;
+    width: 33vh;
+    height: 5vh;
+}
+.card select{
+    width: 33vh;
+    height: 5vh;
+}
+.card button{
+    margin-top: 15%;
+   width: 33vh;
+   height: 6vh;
+   font-size: 16px;
+   background: #23A6F0;
+   border-radius: 8px;
+   border-style: none;
+   color: white;
+   cursor: pointer;
+}
+.card button:hover{
+
+    background: cornflowerblue;
+}
