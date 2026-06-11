@@ -212,6 +212,7 @@ nav button:hover{
     font-size: 55px;
 }
 .text-l p{
+    font-size: 20px;
     color: #777;
 }
 .mobi-text{
@@ -272,5 +273,74 @@ nav button:hover{
 
     margin-top: -40vh;
 }
+    
+}
+
+.leading02{
+    padding: 20px;
+    margin-top: 10%;
+    background: #FAFAFA;
+   
+}
+.qards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    gap: 5vh;
+}
+.qard{
+    border: 0.5px solid #777;
+    width: 45vh;
+    height: 36vh;
+    line-height: 1.9;
+   padding: 40px;
+   background: white;
+   border-radius: 8px;
+}
+.qard p{
+    font-size: 18px;
+    color: #777;
+}
+
+.text-ll{
+    text-align: center;
+    line-height: 1.9;
+}
+.text-ll h1{
+    font-size: 55px;
+}
+.text-ll p{
+    font-size: 20px;
+    color: #777;
+}
+
+.text-lll{
+display: none;
+text-align: center;
+line-height: 1.5;
+
+}
+.text-lll h1{
+    font-size: 55px;
+}
+.text-lll p{
+    font-size: 20px;
+    color: #777;
+}
+
+
+@media (max-width: 768px) {
+
+    .qards{
+        flex-direction: column;
+    }
+    .text-lll{
+        display: block;
+        margin-top: 10vh;
+    }
+    .text-ll{
+        display: none;
+    }
     
 }
