@@ -503,3 +503,67 @@ align-items: start;
     
 }
 
+.get{
+
+    background: #252B42;
+    padding: 40px;
+}
+.tyty{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10vh;
+}
+.l-tyty{
+    color: white;
+    line-height: 1.9;
+}
+.l-tyty h1{
+    font-size: 50px;
+}
+.r-tyty input{
+    width: 40vh;
+    height: 8vh;
+    font-size: 16px;
+    padding: 20px;
+}
+.r-tyty button{
+    padding: 21px;
+    background: #23A6F0;
+    border-style: none;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.r-tyty button:hover{
+    background: cornflowerblue;
+}
+
+.mobi-t{
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .l-tyty{
+        display: none;
+    }
+    .mobi-t{
+        display: flex;
+        
+        flex-direction: column;
+    }
+    .mobi-t h1{
+        font-size: 50px;
+        text-align: center;
+        color: white;
+    }
+    .r-tyty{
+        flex-direction: column;
+    }
+    .tyty{
+        flex-direction: column;
+    }
+}
