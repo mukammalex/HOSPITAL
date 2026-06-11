@@ -399,3 +399,107 @@ line-height: 1.5;
         flex-direction: column;
     }
 }
+
+.pricing{
+
+ background: #FAFAFA;
+ padding: 40px;
+
+}
+.text-ppp{
+
+    text-align: center;
+    line-height: 1.9;
+}
+.text-ppp h1{
+     margin-top: 25vh;
+    font-size: 55px;
+}
+.text-ppp p{
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 15vh;
+}
+.prpr{
+
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+   padding: 20px;
+    
+}
+.kaka{
+
+    border: 1px solid #23A6F0;
+    width: 50vh;
+    height: 100vh;
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+.kaka2{
+    height: 110vh;
+    margin-top: -5vh;
+    background: #252B42;
+    color: white;
+}
+
+.kaka h1{
+    text-align: center;
+}
+.kaka p{
+    text-align: center;
+    color: #777;
+    margin-top: 5vh;
+}
+.sena{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    margin-top: 5vh;
+}
+.sena span{
+    color: #23A6F0;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.sir {
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: start;
+
+
+}
+.sir p{
+    font-size: 20px;
+    color: black;
+
+}
+.sir button{
+    padding: 20px 15vh;
+    font-size: 12px;
+    color: white;
+    background: #23A6F0;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+}
+.sir button:hover{
+    background: cornflowerblue;
+}
+
+@media (max-width: 768px) {
+
+    .prpr{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15vh;
+    }
+    
+}
+
