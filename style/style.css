@@ -344,3 +344,58 @@ line-height: 1.5;
     }
     
 }
+
+.faq{
+    padding: 40px;
+    background: #FAFAFA;
+}
+.text-fff{
+
+    text-align: center;
+    line-height: 1.9;
+}
+.text-fff h1{
+     margin-top: 25vh;
+    font-size: 55px;
+}
+.text-fff p{
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 15vh;
+}
+
+.jards{
+
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+    align-items: center;
+}
+.jard{
+    
+    background: white;
+    border-radius: 10px;
+    width: 50vh;
+    height: 20vh;
+    padding: 20px;   
+}
+.jard h4{
+    font-size: 18px;
+    margin-left: 5vh;
+    margin-top: -3vh;
+}
+.jard p{
+    font-size: 18px;
+    color: #777;
+    margin-left: 5vh;
+}
+
+@media (max-width: 768px) {
+
+    .text-fff{
+        flex-direction: column;
+    }
+    .jards{
+        flex-direction: column;
+    }
+}
