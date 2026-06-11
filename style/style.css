@@ -6,7 +6,7 @@
 }
 
 header{
-    height: 100vh;
+    height: 105vh;
     background-image: url(./img/background.png);
 }
 
@@ -42,6 +42,10 @@ nav button{
     border-radius: 8px;
     cursor: pointer;
 }
+.nav-mobi{
+
+   display: none; 
+}
 nav button:hover{
 
     background: cornflowerblue;
@@ -50,7 +54,7 @@ nav button:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 5vh;
+   gap: 25px;
 }
 .left{
     margin-top: 13%;
@@ -134,4 +138,139 @@ nav button:hover{
 .card button:hover{
 
     background: cornflowerblue;
+}
+
+@media (max-width: 768px) {
+    .nav-mobi{
+        background: white;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: space-evenly;
+       align-items: center;
+        gap: 5vh;
+    }
+    .eee{
+       margin-top: -50vh;
+    }
+    .r-mobi-nav{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 10vh;
+        cursor: pointer;
+    }
+    .navbar{
+        display: none;
+    }
+    nav button{
+        display: none;
+    }
+    .knopki{
+        text-align: center;
+        margin-top: 10vh;
+       font-size: 40px;
+        flex-direction: column;
+       position: absolute;
+       
+    }
+    .knopki a{
+        text-decoration: none;
+        color: #777;
+        line-height: 1.9;
+    }
+    
+    .knopki a:hover{
+        background: cornflowerblue;
+    }
+    .k1{
+        flex-direction: column;
+        margin-top: 25vh;
+    }
+    header{
+        height: 300vh;
+       background-size: 600px;
+      background-position: center;
+      background-repeat: no-repeat;
+        background-image:url(./img/IMAGE\ 2026-06-11\ 03:57:13.jpg);
+    }
+
+    .left{
+        text-align: center;
+        flex-direction: column;
+    }
+    
+}
+.leading{
+    margin-top: 10%;   
+}
+.text-l{
+    text-align: center;
+    line-height: 1.9;
+}
+.text-l h1{
+    font-size: 55px;
+}
+.text-l p{
+    color: #777;
+}
+.mobi-text{
+    text-align: center;
+    line-height: 1.5;
+}
+.mobi-text h1{
+    font-size: 65px;
+}
+.mobi-text p{
+    color: #777;
+}
+.kard{
+    border-radius: 5px;
+    border: 0.5px solid #23A6F0;
+    width: 42.6vh;
+    height: 55vh;
+   
+}
+.kard a{
+    color: #23A6F0;
+    margin-left: 5vh;
+}
+.kard p{
+    color: #777;
+    line-height: 1.9;
+    margin-left: 5vh;
+}
+.kard img{
+    margin-bottom: 5vh;
+}
+.kardho{
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.mobi-text{
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+
+.kardho{
+    flex-direction: column;
+}
+.text-l{
+    display: none;
+}
+.mobi-text{
+    display: block;
+    flex-direction: column;
+}
+.leading{
+
+    margin-top: -40vh;
+}
+    
 }
